@@ -11,6 +11,7 @@
   },
   "author": "Edwin Knuth <eknuth@gmail.com> (http://iknuth.com.com)",
   "license": "MIT",
+  "repository": "git@github.com:eknuth/react-honeycomb-loading-spinner.git",
   "dependencies": {
     "react": "^0.14.3"
   },
