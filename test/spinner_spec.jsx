@@ -1,4 +1,5 @@
 import React from 'react'
+import { findDOMNode } from 'react-dom'
 import TestUtils from 'react-addons-test-utils'
 import HexSpinner from '../src'
 import { expect } from 'chai'
@@ -7,7 +8,7 @@ describe('HexSpinner', () => {
   const RenderedHexSpinner = TestUtils.renderIntoDocument(
       <HexSpinner />
     )
-  const HexSpinnerElem = React.findDOMNode(RenderedHexSpinner)
+  const HexSpinnerElem = findDOMNode(RenderedHexSpinner)
 
   it('Should have the correct HexSpinner element', () => {
     expect(HexSpinnerElem.className).to.equal('hexspinner')
