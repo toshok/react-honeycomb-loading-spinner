@@ -1,15 +1,17 @@
 {
   "name": "react-honeycomb-loading-spinner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Loading animation based on work by Kevin Martin and Doug Harper",
-  "main": "dist/index.js",
+  "main": "build/index.js",
   "scripts": {
-    "build": "babel src",
+    "build": "babel src --out-dir build",
+    "watch": "babel src --out-dir build --watch",
     "test": "NODE_ENV=test mocha --require test/setup.js --compilers js:babel-register test/**/*_spec.jsx",
     "test-watch": "NODE_ENV=test mocha --require test/setup.js --compilers js:babel-register test/**/*_spec.jsx --growl --watch --watch-extensions jsx"
   },
   "author": "Edwin Knuth <eknuth@gmail.com> (http://iknuth.com.com)",
   "license": "MIT",
+  "repository": "git@github.com:eknuth/react-honeycomb-loading-spinner.git",
   "dependencies": {
     "react": "^0.14.3"
   },
@@ -20,6 +22,8 @@
     "chai": "^3.4.1",
     "growl": "^1.8.1",
     "jsdom": "^7.2.0",
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "react-addons-test-utils": "^0.14.3",
+    "react-dom": "^0.14.3"
   }
 }
