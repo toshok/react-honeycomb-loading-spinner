@@ -3,6 +3,8 @@ node_js:
 - '4.1'
 - '4.0'
 deploy:
+  tags: true
+  branch: master
   provider: npm
   email: eknuth@gmail.com
   api_key:
