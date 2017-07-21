@@ -1,6 +1,6 @@
 {
-  "name": "react-honeycomb-loading-spinner",
-  "version": "1.0.4",
+  "name": "react-honeycomb-loading-spinner-sass",
+  "version": "1.0.5",
   "description": "Loading animation based on work by Kevin Martin and Doug Harper",
   "main": "build/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "author": "Edwin Knuth <eknuth@gmail.com> (http://iknuth.com.com)",
   "license": "MIT",
-  "repository": "git@github.com:eknuth/react-honeycomb-loading-spinner.git",
+  "repository": "git@github.com:toshok/react-honeycomb-loading-spinner.git",
   "dependencies": {
     "react": "^0.14.3"
   },

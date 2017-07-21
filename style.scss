@@ -1,3 +1,5 @@
+$hex-color: #ABF8FF;
+
 .socket {
   width: 200px;
   height: 200px;
@@ -8,7 +10,7 @@
   margin-top: -100px;
 }
 .hex-brick {
-  background: #ABF8FF;
+  background: $hex-color;
   width: 30px;
   height: 17px;
   position: absolute;
@@ -271,13 +273,13 @@
 }
 @keyframes fade {
   0% {
-    background: #ABF8FF;
+    background: $hex-color;
   }
   50% {
-    background: #90BBBF;
+    background: darken($hex-color, 5%);
   }
   100% {
-    background: #ABF8FF;
+    background: $hex-color;
   }
 }
 @-webkit-keyframes pulse {
@@ -296,12 +298,12 @@
 }
 @-webkit-keyframes fade {
   0% {
-    background: #ABF8FF;
+    background: $hex-color;
   }
   50% {
-    background: #389CA6;
+    background: darken($hex-color, 22%);
   }
   100% {
-    background: #ABF8FF;
+    background: $hex-color;
   }
 }
