@@ -1,4 +1,5 @@
 $hex-color: #ABF8FF !default;
+$hex-color-faded: darken($hex-color, 5%) !default;
 
 .socket {
   width: 200px;
@@ -276,7 +277,7 @@ $hex-color: #ABF8FF !default;
     background: $hex-color;
   }
   50% {
-    background: darken($hex-color, 5%);
+    background: $hex-color-faded;
   }
   100% {
     background: $hex-color;
@@ -301,7 +302,7 @@ $hex-color: #ABF8FF !default;
     background: $hex-color;
   }
   50% {
-    background: darken($hex-color, 22%);
+    background: $hex-color-faded;
   }
   100% {
     background: $hex-color;
