@@ -1,6 +1,6 @@
 {
   "name": "react-honeycomb-loading-spinner-sass",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Loading animation based on work by Kevin Martin and Doug Harper",
   "main": "build/index.js",
   "scripts": {
